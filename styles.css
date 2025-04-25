@@ -47,7 +47,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: black;
+    background-color: #009e9e;
     color: antiquewhite;
     border-radius: 10px;
 }
@@ -113,7 +113,13 @@ body {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     font-size: 18px;
-    
+   
+}
+
+.hero-container button:hover {
+    background-color: #01b6b6;
+    color: white;
+    cursor: pointer;
 }
 
 /* about us section */
@@ -124,7 +130,8 @@ body {
     margin: 100px auto;
     background-color: #009e9e;
     color: white;
-    
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #about-us h1 {
@@ -139,10 +146,10 @@ body {
 
 #stories-section {
     display: grid;
-    width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-    gap: 20px; /* Adds spacing between grid items */
+    gap: 30px; /* Adds spacing between grid items */
     padding: 20px; /* Adds padding around the grid */
   }
   
@@ -179,6 +186,13 @@ body {
 .care-home-image img {
     height: 300px;
     width: 500px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 5px;
+}
+
+.care-home-image p {
+    text-align: center;
 }
 
 footer {
@@ -193,6 +207,10 @@ footer ul {
     display: flex;
     list-style-type: none;
     
+}
+
+footer ul li {
+    margin: 20px 0;
 }
 
 footer img {
@@ -222,7 +240,7 @@ footer img {
         top: 100px;
         height: 0;
         width: 100vw;
-        background-color: antiquewhite;
+        background-color: white;
         right: 0;
         left: 0;
         overflow: hidden;
@@ -246,5 +264,59 @@ footer img {
 
     .navbar.active ul {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #stories-section {
+        display: grid;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-template-columns:  1fr; /* Creates 3 equal columns */
+        gap: 30px; /* Adds spacing between grid items */
+        padding: 20px; /* Adds padding around the grid */
+      }
+      
+      .stories-item {
+        text-align: center; /* Centers text and images */
+       padding: 0 50px;
+      }
+      
+      .stories-item img {
+        width: 200px; 
+        height: 200px; 
+        border-radius: 50%; /* Optional: Adds rounded corners */
+        object-fit: cover; /* Ensures image fills the area without distortion */
+      }
+
+     
+}
+
+@media only screen and (max-width: 900px) {
+    footer {
+        background-color: #009e9e; 
+        display: flex;
+        justify-content: space-between;
+    text-align: center;
+    align-items: center;
+        color: white;
+        padding: 50px 100px;
+        flex-direction: column;
+    }
+    
+    footer ul {
+        display: flex;
+        list-style-type: none;
+        
+    }
+    
+    footer img {
+        height: 50px;
+        width: 50px;
+        margin: 0 10px;
+    }
+
+    footer h2 {
+        margin-bottom: 20px;
     }
 }
