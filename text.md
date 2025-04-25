@@ -1,0 +1,21 @@
+Shaping a better future
+Providing the best of care since 1870
+From a person’s first breath through to their last, VSA has stood next to the people of Aberdeen for 150 years offering care, support, and vital services to vulnerable people living in our communities as and when they needed it.
+
+Donate to VSA 
+
+
+Seabank House Projects aim to provide a high quality service to individuals experiencing mental health issues. The organisation recognises the need to create a safe environment that actively encourages individuals to make choices about their lifestyles whilst also being treated with respect, dignity, privacy and individuality. These are the fundamental values and beliefs of the organisation. It is the intention of Seabank that these are reflected in everyday practice and should ultimately create positive and meaningful experiences for residents, which will allow them to work towards reaching their full potential Seabank House is committed to continually improving and developing the service in order to meet the changing needs of the service users and promote a high quality of life for all
+
+
+SEABANK HOUSE Seabank house is a registered care home, located in the city centre of Aberdeen, which provides supported accommodation for 19 individuals experiencing mental health issues. The aim of the organisation is to provide a safe and supportive environment, where all service users are provided with the opportunity to reach greater self-sufficiency. Seabank aims to provide assistance to individuals who wish to work towards moving onto less supported accommodation or independent living. Staff work with residents, in conjunction with other health care professionals, to develop daily living and coping skills, which are necessary for independent living. All residents are also provided with the opportunity to engage in a variety of therapeutic activities to build on social skills, confidence and self-esteem. Staff will actively encourage residents to be involved in participating in these activities that are meaningful to them as this will assist them to achieve personal goals whilst enhancing their overall quality of life The organisation will endeavor to allow individuals to remain within the home for as long as practically passible. Staff will provide support for individuals who wish to find suitable alternative accommodation once a time for moving has been established. Residents who have no desire to move on will be offered long-term residency. In the event of any person becoming physically/mentally unable to remain within the care setting, and whose needs would be best met elsewhere, the agency will arrange for care management intervention and for the reassessment of needs to be completed and find alternative accommodation or a more appropriate care setting for the individual 
+
+ABERLEA HOUSE Aberlea House is a residential care establishment located in the west end of the city providing care for a group of 5 individuals. Established through joint funding to meet the needs of those discharged into the community from long stay on wards, our policy at this project is to assist residents to manage the transition from long term hospital care to a more comfortable residential care within the community. Thereafter to work with residents on realising their new quality of life The staff are there to give assistance in learning or improving any practical skills. There are opportunities to partake in social activities, holidays, outings, and support with daily living skills such as cooking, shopping etc. as well as guidance and support to enable you to deal with any personal problems or any difficulties you may encounter. Being a smaller setting, you will benefit from the one-to-one staff input, aiming to expand each individuals’ potential and leaning to greater independence.
+
+
+Contacts Seabank House 57 Dee Street Aberdeen AB11 6EE Tel: 01224592800 Seabankhouse@seankprojects.co.uk Aberlea House 54 St Swithin Street Aberdeen Ab10 6XJ Tel: 01224208327 Aberlea@seabankprojects.co.uk
+
+
+ Website Examples
+ 
+ VSA, Penumbra, Cyrenians, SAMH
