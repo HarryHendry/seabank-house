@@ -44,11 +44,12 @@ body {
 
 .navbar ul li a {
     padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.906);
 }
 
 .navbar ul li a:hover {
     background-color: #009e9e;
-    color: antiquewhite;
+    color: white;
     border-radius: 10px;
 }
 
