@@ -221,6 +221,97 @@ footer img {
     margin: 0 10px;
 }
 
+/* transform practice  */
+
+#transform {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#transform h2 {
+   font-size: 3rem;
+   cursor: pointer;
+   border: 3px solid black;
+   padding: 30px;
+   transition: transform 2s ease-out 1s;
+   
+}
+
+#transform h2:hover {
+    transform:  scale(2);
+   
+}
+
+/* contact form practive */
+
+
+
+
+
+#contact-us-section h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+#contact-form {
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #009e9e;
+    color: white;
+    max-width: 800px;
+    margin: 70px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#contact-form h2 {
+    margin: 1.5rem 0;
+}
+
+#contact-form input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    margin: 1rem 0;
+    font: inherit;
+    box-sizing: border-box;
+    border: 3px solid #006d6d;
+    resize: none;
+}
+
+#contact-form .form-control-inline {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+#contact-form .form-control-inline input {
+   
+    width: auto; 
+    margin-right: 5px;
+}
+
+#contact-form button {
+    font-family: inherit;
+    margin: 0 10px;
+    background-color: aliceblue;
+    padding: 0.5rem 1.2rem;
+    background-color: #00ffff;
+    color: white;
+    border: none;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
 
 
 
