@@ -4,6 +4,8 @@
     --olive-green: #5e7463;
     --yellow: #c6a73e;
     --green: #436a56;
+    --off-white: #f9f9f9;
+    --dark-gray: #333;
 
 }
 
@@ -39,6 +41,8 @@ header {
 body {
     margin-top: 100px;
     overflow-x: hidden;
+    background-color: var(--off-white);
+    color: var(--dark-gray);
 }
 
 .navbar ul {
@@ -88,14 +92,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #dcf6e3;
     position: relative;
     text-align: center;
-    
+    position: relative;
+    top: 9rem;
 }
 
 .hero-container h1 {
     font-size: 4.5rem;
+    text-decoration: 5px underline var(--olive-green);
+    margin-bottom: 3rem;
 }
 
 .hero-container p {
@@ -165,6 +172,12 @@ body {
 .text-box h2 {
     font-size: 2.2rem;
     font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.text-box p {
+    line-height: 1.4;
+    font-size: 1.2rem;
 }
 
 .grid-image {
