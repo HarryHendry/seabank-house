@@ -95,8 +95,7 @@ body {
     color: #dcf6e3;
     position: relative;
     text-align: center;
-    position: relative;
-    top: 9rem;
+  
 }
 
 .hero-container h1 {
@@ -109,7 +108,13 @@ body {
     font-size: 1.9rem;
 }
 
-
+#who h2{
+    text-align: center;
+    margin-top: 5.2rem;
+    
+    font-weight: 800;
+    font-size: 2rem;
+}
 
 #intro p {
     max-width: 1200px;
@@ -118,7 +123,7 @@ body {
     
     
     line-height: 1.3;
-    margin: 9rem auto;
+    margin: 3rem auto;
     
     
 }
