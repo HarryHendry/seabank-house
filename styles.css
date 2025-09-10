@@ -102,14 +102,36 @@ body {
     font-size: 1.9rem;
 }
 
+
+
 #intro p {
     max-width: 1200px;
-    margin: 5rem auto;
+   
     font-size: 1.8rem;
-    padding: 3rem;
+    
+    
     line-height: 1.3;
+    margin: 6.5rem auto;
+    
+    
 }
 
+#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-olive-green);
+    padding: 2rem;
+}
+
+.button-cta {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0 1rem;
+    background-color: #073625;
+    color: white;
+}
 
 
 /* NAVBAR MEDIA QUERY */
@@ -162,7 +184,7 @@ body {
 
 @media only screen and (min-width: 1220px) {
     #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+  
     background-size: cover;
     background-position: bottom;
 
@@ -172,7 +194,7 @@ body {
 }
 @media only screen and (min-width: 1420px) {
     #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+  
     background-size: cover;
     background-position: bottom;
 
@@ -182,7 +204,7 @@ body {
 }
 @media only screen and (min-width: 1620px) {
     #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+  
     background-size: cover;
     background-position: bottom;
 
@@ -192,8 +214,7 @@ body {
 }
 @media only screen and (min-width: 1820px) {
     #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
-    background-size: cover;
+   
     background-position: bottom;
 
     max-height: 1500px;
@@ -202,7 +223,7 @@ body {
 }
 @media only screen and (min-width: 1920px) {
     #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+   
     background-size: cover;
     background-position: center;
 
