@@ -73,12 +73,41 @@ body {
 
 
 #hero {
-    background-image: url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
 
     max-height: 800px;
     height: 100vh;
+}
+
+.hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    
+}
+
+.hero-container h1 {
+    font-size: 4.5rem;
+}
+
+.hero-container p {
+    font-size: 1.9rem;
+}
+
+#intro p {
+    max-width: 1200px;
+    margin: 5rem auto;
+    font-size: 1.8rem;
+    padding: 3rem;
+    line-height: 1.3;
 }
 
 
