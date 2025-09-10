@@ -81,7 +81,7 @@ body {
     background-size: cover;
     background-position: bottom;
 
-    max-height: 800px;
+    max-height: 900px;
     height: 100vh;
 }
 
@@ -92,7 +92,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #dcf6e3;
+    color: #e2f2e7;
     position: relative;
     text-align: center;
   
@@ -100,7 +100,7 @@ body {
 
 .hero-container h1 {
     font-size: 4.5rem;
-    text-decoration: 5px underline var(--olive-green);
+    text-decoration: 5px underline var(--green);
     margin-bottom: 3rem;
 }
 
@@ -162,7 +162,7 @@ body {
     column-gap: 6.4rem;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-     padding: 9.6rem 0;
+     padding: 5.6rem 0;
      max-width: 1200px;
     margin: 100px auto;
 }
