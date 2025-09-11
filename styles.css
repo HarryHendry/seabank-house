@@ -271,7 +271,7 @@ i {
     grid-template-columns: repeat(4, 1fr);
   
     align-items: start;
-     padding: 5.6rem 0;
+     padding: 5.6rem 0 0.6rem 0;
     max-width: 1200px;
     margin: 100px auto 0 auto;
 }
@@ -285,7 +285,7 @@ i {
     list-style-type: none;
    
 }
-.footer-links ul li {
+.footer-links ul li, .footer-links h4 {
     margin: 0.5rem;
 }
 .footer-contact p, .footer-contact h4 {
