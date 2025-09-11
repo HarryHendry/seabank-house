@@ -462,8 +462,12 @@ i {
     
 }
 
+.about-hero-container ul {
+    padding-left: 1.2rem;
+}
+
 .about-hero-container ul li {
-    list-style-type: none;
+  
     font-size: 1.5rem;
     margin: 0.5rem 0;
 }
