@@ -501,3 +501,41 @@ i {
     margin: 0 auto;
     padding: 5rem;
 }
+
+.team-grid-container {
+     display: grid; 
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
+    grid-template-columns: repeat(3, 1fr);
+  
+    align-items: center;
+     padding: 5.6rem 0;
+     max-width: 1200px;
+    margin: 50px auto;
+}
+
+.team-card {
+     background-color: var(--green);
+    height: 450px;
+    width: 300px;
+    border-radius: 8px;
+    color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.team-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-pic img {
+    height: 200px;
+    width: 200px;
+   
+    
+}
