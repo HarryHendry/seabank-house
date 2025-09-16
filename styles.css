@@ -178,9 +178,7 @@ body {
 
 /* highlights section */
 
-#highlights {
-  
-}
+
 
 .grid-container {
     display: grid; 
@@ -530,17 +528,18 @@ i {
     flex-direction: column;
     
     padding: 2rem;
-   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  
 }
 
 .team-pic {
     display: flex;
     align-items: center;
     justify-content: center;
+      
 }
 
 .team-pic img {
-    height: 200px;
+ height: 200px;
     width: 200px;
    border-radius: 50%;
     border: 7px solid var(--green);
