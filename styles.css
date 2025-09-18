@@ -118,7 +118,7 @@ body {
 
 .hero-container h1 {
     font-size: 4.5rem;
-    text-decoration: 5px underline var(--green);
+  /*   text-decoration: 5px underline var(--green); */
     margin-bottom: 3rem;
 }
 
@@ -176,7 +176,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-olive-green);
+    background: radial-gradient(circle, var(--light-olive-green), var(--deep-blue));
+
     margin-bottom: 50px;
 }
 
