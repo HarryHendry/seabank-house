@@ -196,6 +196,13 @@ body {
     color: white;
 }
 
+#cta button:nth-of-type(2) {
+    
+    color: white; /* Optional, for contrast */
+    border: 4px solid var(--optimistic-orange); /* Optional, if you want a clean button */
+}
+
+
 /* highlights section */
 
 
