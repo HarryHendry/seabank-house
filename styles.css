@@ -85,9 +85,9 @@ body {
     width: 120px;
 }
 
-.navbar .pop {
+.navbar a.pop {
     color: var(--charcoal-grey);
-      background-color: var(--optimistic-orange);
+      background-color:  var(--optimistic-orange) !important;
       border-radius: 5px;
 }
 
