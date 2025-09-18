@@ -226,6 +226,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+
+
 #testimonial-header {
     padding-top: 5rem;
     text-align: center;
@@ -254,6 +256,7 @@ body {
     justify-content: space-between;
     padding: 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .residents {
@@ -662,9 +665,10 @@ i {
 }
 
 #involved {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/images/seabank-house-image-involved.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url(/images/test-pic.jpg);
+
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 
     max-height: 900px;
     height: 100vh;
@@ -693,5 +697,34 @@ i {
     font-size: 1.9rem;
 }
 
+#involved-info {
+    background-color: var(--light-olive-green);
+}
 
 
+.involved-grid-container {
+     display: grid; 
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
+    grid-template-columns: repeat(3, 1fr);
+  
+    align-items: center;
+     padding: 3.6rem 0;
+     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.involved-card {
+     background-color: var(--dark-green);
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    color: var(--off-white);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
