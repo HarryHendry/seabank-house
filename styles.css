@@ -75,7 +75,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: var(--green);
+    background-color: var(--deep-blue);
     color: white;
     border-radius: 10px;
 }
@@ -95,7 +95,7 @@ body {
 
 
 #hero {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
 
@@ -124,6 +124,7 @@ body {
 
 .hero-container p {
     font-size: 1.9rem;
+    color: #cbd3d3;
 }
 
 /* Hero container styling */
@@ -164,7 +165,7 @@ body {
     max-width: 1200px;
    
     font-size: 1.8rem;
-    
+   
     
     line-height: 1.3;
     margin: 3rem auto;
