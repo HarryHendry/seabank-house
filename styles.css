@@ -630,10 +630,11 @@ i {
 }
 
 .services-card button {
-    background-color: #f9f9f9;
+    background-color: var(--green);
     max-width: 150px;
     padding: 0.5rem 2rem;
     border-radius: 2px;
+    color: #f9f9f9;
 }
 
 .services-container h1,
