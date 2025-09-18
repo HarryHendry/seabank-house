@@ -661,5 +661,37 @@ i {
   }
 }
 
+#involved {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/images/seabank-house-image-involved.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    max-height: 900px;
+    height: 100vh;
+}
+
+.involved-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e2f2e7;
+    position: relative;
+    text-align: center;
+  
+}
+
+.involved-container h1 {
+    font-size: 4.5rem;
+    text-decoration: 5px underline var(--green);
+    margin-bottom: 3rem;
+}
+
+.involved-container p {
+    font-size: 1.9rem;
+}
+
 
 
