@@ -1,0 +1,61 @@
+/* Donate Page Styling */
+#donate-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#donate-page h1,
+#donate-page h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.donate-intro p {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.donate-impact ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.donate-impact li {
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Button Section */
+.donate-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.donate-btn {
+  background: #ff9800;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.donate-btn:hover {
+  background: #e68900;
+}
+
