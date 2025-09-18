@@ -85,6 +85,14 @@ body {
     width: 120px;
 }
 
+.navbar .pop {
+    color: var(--charcoal-grey);
+      background-color: var(--optimistic-orange);
+      border-radius: 5px;
+}
+
+
+
 
 #hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url(/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
