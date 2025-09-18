@@ -457,7 +457,7 @@ i {
 
 #about-hero {
     
-    background-color: var(--dark-green);
+    
     padding: 4.8rem 0 5.6rem 0;
 }
 
@@ -471,21 +471,21 @@ i {
     justify-content: center;
     align-items: center;
     padding: 0 3.2rem;
-    color: var(--light-olive-green);
+    
 }
 
 .about-hero-container h1 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
-    color: var(--light-olive-green)
+    color: var(--charcoal-grey)
 }
 .about-hero-container h3 {
     margin: 1rem 0;
     font-size: 1.5rem;
-    color: #80f4b8;
+    
 }
 .about-hero-container p {
-    margin: 1rem 0;
+    margin: 1.8rem 0;
     font-size: 1.5rem;
     
 }
@@ -513,15 +513,26 @@ i {
     width: 100%;
 }
 
+.subtle-line {
+    border: none;            /* Remove default border */
+    height: 1px;             /* Very thin */
+    background-color: #ccc;  /* Light gray for subtlety */
+    margin: 20px 0;          /* Space above and below */
+    opacity: 0.5;            /* Make it even more subtle */
+}
+
+
 .history-container h1 {
     margin-top: 3rem;
     text-align: center;
     margin-bottom: 5rem;
 }
 
+
+
 .history-container p {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
     line-height: 1.3;
 }
 
