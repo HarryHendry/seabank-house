@@ -265,17 +265,17 @@ body {
 }
 
 .testimonial-card {
-     background:var(--deep-blue);
+      /* background:var(--deep-blue); */
     height: 300px;
     width: 300px;
-    border: 2px solid black;
+    border: 3px solid black;
     color: var(--off-white);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    color: var(--off-white)
+    color: var(--dark-gray)
 }
 
 .residents {
