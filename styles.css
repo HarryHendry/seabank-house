@@ -624,7 +624,7 @@ i {
 
 .services-container h1 {
     font-size: 4.5rem;
-    text-decoration: 5px underline var(--green);
+    
     margin-bottom: 3rem;
 }
 
@@ -672,7 +672,7 @@ i {
 }
 
 .services-card button {
-    background-color: var(--green);
+    background-color: var(--deep-blue);
     max-width: 150px;
     padding: 0.5rem 2rem;
     border-radius: 2px;
@@ -728,7 +728,7 @@ i {
 
 .involved-container h1 {
     font-size: 4.5rem;
-    text-decoration: 5px underline var(--green);
+    
     margin-bottom: 3rem;
 }
 
@@ -754,7 +754,7 @@ i {
 }
 
 .involved-card {
-     background-color: var(--dark-green);
+     background-color: var(--deep-blue);
     height: 300px;
     width: 300px;
     border: 2px solid black;
