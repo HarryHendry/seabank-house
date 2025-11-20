@@ -23,7 +23,7 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* BASIC SETTINGS */
 
@@ -31,7 +31,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Merriweather Sans", sans-serif;
+    
 }
 
 /* NAVBAR */
@@ -57,6 +57,7 @@ body {
     overflow-x: hidden;
     background-color: var(--sand);
     color: var(--dark-gray);
+    font-family: "Azeret Mono", monospace;
 }
 
 .navbar ul {
