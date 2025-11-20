@@ -16,6 +16,10 @@
     --optimistic-orange: #f59e0b;
     --charcoal-grey: #1f2937;
 
+      --navy: #003049;
+    --orange: #ea504b;
+    --sand: #e5dfc2;
+
 }
 
 
@@ -43,7 +47,7 @@ header {
     left: 0;
     width: 100%;
    z-index: 999;
-   background: linear-gradient(to right, var(--light-olive-green), var(--deep-blue));
+   background-color: var(--navy);
 
    /* border-bottom: 5px solid var(--olive-green); */
 }
@@ -51,7 +55,7 @@ header {
 body {
     margin-top: 100px;
     overflow-x: hidden;
-    background-color: var(--off-white);
+    background-color: var(--sand);
     color: var(--dark-gray);
 }
 
@@ -75,7 +79,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: var(--deep-blue);
+    background-color: var(--orange);
     color: white;
     border-radius: 10px;
 }
@@ -180,7 +184,7 @@ padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, var(--light-olive-green), var(--deep-blue));
+    background-color: var(--navy);
 
     margin-bottom: 50px;
 }
