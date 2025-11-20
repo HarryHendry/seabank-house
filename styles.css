@@ -1,22 +1,8 @@
 :root {
-    --dark-green: #073625;
-    --light-olive-green: #c8dece; 
-    --olive-green: #5e7463;
-    --yellow: #c6a73e;
-    --green: #436a56;
+ 
     --off-white: #f9f9f9;
     --dark-gray: #333;
-
-    /* 
-    color testing
-    */
-
-    --deep-blue: #1e3a8a;
-    --sky-blue: #bfdbfe;
-    --optimistic-orange: #f59e0b;
-    --charcoal-grey: #1f2937;
-
-      --navy: #003049;
+    --navy: #003049;
     --orange: #ea504b;
     --sand: #e5dfc2;
 
@@ -321,7 +307,7 @@ i {
 }
 
 #footer {
-    background: linear-gradient(to right, var(--light-olive-green), var(--deep-blue));
+    background-color: var(--navy);
     color: white;
     
 }
