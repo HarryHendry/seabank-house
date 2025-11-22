@@ -71,6 +71,24 @@ body {
     border-radius: 10px;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange);
+    
+}
+
+.logo-container {
+    width: 130px;
+ line-height: 0.9;
+}
+
+.logo-container h1 {
+   font-weight: 100;
+    
+}
+
 .logo img {
     height: 120px;
     width: 120px;
