@@ -23,7 +23,13 @@
     
 }
 
+
 /* Navbar Styling */ 
+
+.header-wrapper {
+    background-color: var(--navy);
+    border-bottom: 2px solid var(--sand);
+}
 
 header {
     display: flex;
@@ -31,7 +37,9 @@ header {
     padding: 1rem 2rem;
     background-color:  var(--navy);
     align-items: center;
-    
+  max-width: 1400px;
+  margin: 0 auto;
+
 }
 
 .navbar ul {
@@ -58,6 +66,37 @@ header {
 
 .hamburger {
     display: none;
+}
+
+.hero-message-wrapper {
+    background-color: var(--navy);
+}
+
+.hero-message {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 5rem 2rem;
+    background-color: var(--navy);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+    color: var(--text-light);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-message h1 {
+letter-spacing: 3px;
+line-height: 1.5;
+   font-size: 3.2rem;
+   font-weight: 900;
+    color: var(--orange);
+}
+
+.sub-message p {
+    margin: 1rem;
+    color: #cecdcd;
+    line-height: 1.4;
 }
 
 
@@ -106,6 +145,11 @@ header {
    }
    .navbar.active ul li {
     opacity: 1;
+   }
+
+   .hero-message {
+    display: grid;
+    grid-template-columns: 1fr;
    }
 
 
