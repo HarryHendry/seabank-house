@@ -201,6 +201,29 @@ padding: 2.2rem;
     right: 10px;
 }
 
+.cta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+margin: 5rem;
+ gap: 1rem;
+}
+
+.cta-work {
+    text-align: center;
+    color: #908d8d;
+    height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.cta-work h2 {
+    margin: 1rem;
+    color: var(--text-light);
+}
+
 
 
 /* FOOTER */
