@@ -79,7 +79,7 @@ z-index: 3;
 .hero-message {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 5rem 2rem;
+    padding: 5rem 1rem 1rem 1rem;
     background-color: var(--sand);
     display: grid;
     gap: 2rem;
@@ -123,12 +123,12 @@ border-radius: 20px;
 
 .hero-image-wrapper {
     background-color: var(--sand);
-    padding: 2rem 2rem 6rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .key-messaging {
     max-width: 1200px;
-    padding: 2.2rem;
+    padding: 3.2rem 0 3.3rem 0;
     margin: 0 auto;
     background-color: var(--sand);
 }
