@@ -6,4 +6,12 @@ Hamburger.addEventListener('click', () => {
 }) 
 
 
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("splash").classList.add("hidden");
+      document.getElementById("main-content").classList.add("show");
+    }, 2000); // 2 seconds
+  });
+
+
 
