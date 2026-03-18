@@ -14,4 +14,18 @@ Hamburger.addEventListener('click', () => {
   });
 
 
+  const transition = document.getElementById("page-transition");
+  const title = document.getElementById("page-title");
+
+  function showTransition(text, url) {
+    title.textContent = text;
+    transition.classList.add("active");
+
+    setTimeout(() => {
+      window.location.href = url;
+    }, 800); // delay before navigating
+  }
+
+
+
 
