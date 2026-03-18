@@ -28,8 +28,8 @@
 
 .header-wrapper {
     background-color: var(--navy);
-    border-bottom: 2px solid var(--sand);
-    position: sticky;
+   
+  
     top: 0;
 }
 
@@ -283,11 +283,25 @@ margin: 5rem;
     height: 600px;
     max-width: 1200px;
     margin: 0 auto;
-    background: url(/images/test-pic.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('/images/test-pic.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
 }
+
+.about-hero-image h1 {
+    color: var(--orange);
+    background-color: var(--navy);
+    
+    width: fit-content;
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
 
 
 
