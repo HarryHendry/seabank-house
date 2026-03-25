@@ -545,6 +545,166 @@ margin: 0 auto;
   line-height: 1.6;
 }
 
+.contact {
+  padding: 80px 20px;
+  background: var(--sand);
+}
+
+.contact .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  margin-bottom: 15px;
+}
+
+.info-item strong {
+  display: block;
+  color: #2c3e50;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+}
+
+.contact-form button {
+  padding: 12px;
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: var(--orange);
+}
+
+.contact-page {
+    background-color: var(--sand);
+}
+
+.donate-page {
+    background-color: var(--sand);
+}
+
+.donate {
+  padding: 80px 20px;
+  text-align: center;
+  background: var(--navy);
+  color: var(--text-light);
+}
+
+.donate h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.donate .subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.donation-amounts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.donation-amounts button {
+  padding: 10px 20px;
+  border: 1px solid #3498db;
+  background: white;
+  color: #3498db;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.donation-amounts button:hover {
+  background: #3498db;
+  color: white;
+}
+
+.donate input {
+  padding: 12px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.donate-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #27ae60;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.donate-btn:hover {
+  background: #1e8449;
+}
+
+.secure-text {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.bank-details {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* Mobile */
 @media (max-width: 768px) {
   .zigzag-row {
