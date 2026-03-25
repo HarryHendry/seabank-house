@@ -358,7 +358,7 @@ margin: 0 auto;
 }
 
 .about-further-info-wrapper {
-    background-color: var(--sand);
+    background-color: var(--navy);
 }
 
 
@@ -391,6 +391,31 @@ margin: 0 auto;
   pointer-events: none;
 }
 
+.meet-the-team-header {
+    text-align: center;
+    padding: 5rem 0 1rem 0 ;
+    color: var(--navy);
+    font-size: 1.5rem;
+    
+}
+.meet-the-team {
+    background-color: var(--sand);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+
+.meet-the-team-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid var(--navy);
+}
+
+.meet-the-team-card {
+    text-align: center;
+}
 
 
 @media only screen and (max-width: 900px) {
