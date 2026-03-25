@@ -346,8 +346,9 @@ margin: 0 auto;
 .about-further-info {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: var(--sand);
+    background-color: var(--navy);
     padding: 3rem;
+    color: var(--text-light);
 }
 
 .about-further-info h2 {
