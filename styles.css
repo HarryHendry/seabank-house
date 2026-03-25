@@ -346,9 +346,9 @@ margin: 0 auto;
 .about-further-info {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: var(--navy);
+    background-color: var(--sand);
     padding: 3rem;
-    color: var(--text-light);
+    color: var(--text-navy);
 }
 
 .about-further-info h2 {
@@ -358,7 +358,7 @@ margin: 0 auto;
 }
 
 .about-further-info-wrapper {
-    background-color: var(--navy);
+    background-color: var(--sand);
 }
 
 
@@ -415,6 +415,30 @@ margin: 0 auto;
 
 .meet-the-team-card {
     text-align: center;
+}
+
+.residents-testimonial {
+    display: flex;
+    background-color: var(--navy);
+    padding: 5rem;
+    gap: 1rem;
+}
+
+.residents-testimonial-card {
+    font-size: 2rem;
+    color: var(--text-light);
+      background-color: #003049;
+}
+
+.testimonial-inner-card {
+    display: flex;
+    font-size: 1.5rem;
+  
+}
+
+.testimonial-inner-card img {
+    height: 50px;
+    width: 50px;
 }
 
 
