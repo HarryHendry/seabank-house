@@ -9,6 +9,106 @@
   margin: 2rem auto;
 }
 
+.trial {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.trial img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* Welcome overlay */
+.welcome-message {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+    background: rgba(10, 20, 29, 0.687);
+
+    opacity: 0;
+    animation: welcomeSequence 10s ease forwards;
+}
+
+.welcome-message h1 {
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 1rem;
+    transform: translateY(20px);
+    animation: welcomeTitle 2s ease 3.1s both;
+}
+
+.welcome-message p {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    margin: 0;
+    transform: translateY(15px);
+    animation: welcomeSubtitle 2s ease 3.5s both;
+}
+
+/* Overlay fades in, then disappears */
+@keyframes welcomeSequence {
+    0%, 15% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes welcomeTitle {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes welcomeSubtitle {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .welcome-message,
+    .welcome-message h1,
+    .welcome-message p {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+
+    .welcome-message {
+        animation: welcomeSequence 5s ease forwards;
+    }
+}
+
+
 /* COLORS */
 :root {
   --navy: #003049;
@@ -357,7 +457,7 @@ margin: 0 auto;
     max-width: 1200px;
     margin: 0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('/images/Seabank\ 03.png');
+  url('/images/Seabank\ 09.png');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
