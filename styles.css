@@ -192,30 +192,56 @@ z-index: 3;
 }
 
 .hero-message {
-    margin: 0 auto;
+    margin: 2rem auto;
     max-width: 1200px;
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 4rem ;
     background-color: var(--sand);
     display: grid;
     gap: 2rem;
-    grid-template-columns: 2fr 1fr;
-    color: var(--text-dark);
+    grid-template-columns: 1fr;
+    color: var(--text-light);
     justify-content: center;
     align-items: center;
+    background-color: var(--navy);
+    border-radius: 20px;
+    border-top: 1.2rem double var(--sand);
+}
+
+.hero-message hr {
+  width: 5rem;
+  height: 0.5rem;
+  background: var(--orange);
+  border: none;
+}
+
+.hero-message button {
+  padding: 1rem;
+  background-color: var(--sand);
+  border: none;
+  border-radius: 20px;
+font-family: 'Avenir', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+letter-spacing: 2px;
+}
+
+.orange {
+  color: var(--orange);
 }
 
 .hero-message h1 {
+  margin-top: 1rem;
 letter-spacing: 3px;
 line-height: 1.5;
-   font-size: 3.8rem;
+   font-size: 2.2rem;
    font-weight: 900;
-    color: var(--orange);
+    color: var(--text-light);
 }
 
 .sub-message p {
   font-family: "Nunito Sans", sans-serif;
-    margin: 1rem;
-    color: var(--text-dark);
+    margin: 1rem 0;
+    color: var(--text-light);
     line-height: 1.4;
     font-size: 1.2rem;
 }
