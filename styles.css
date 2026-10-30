@@ -179,7 +179,7 @@ z-index: 3;
 }
 
 .navbar ul li a:hover {
-    background-color: var(--orange);
+    background-color: var(--navy);
     color: var(--text-light);
 }
 
