@@ -1095,7 +1095,7 @@ margin: 0 auto;
 }
 
 .zigzag-text p {
-  color: #555;
+  color: var(--text-light);
   line-height: 1.6;
 }
 
