@@ -1574,3 +1574,260 @@ margin: 0 auto;
     height: 300px;
   }
 }
+
+.contact-cta {
+  background: var(--navy);
+  padding: 75px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact-cta .container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-cta .section-label {
+  color: #d9cba8;
+}
+
+.contact-cta h2 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin: 12px 0 18px;
+}
+
+.contact-cta p {
+  color: #e1e5e9;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #e9e2ce;
+  color: var(--navy);
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.cta-button:hover {
+  background: white;
+}
+
+/* DONATION HERO */
+
+.donate-hero {
+  position: relative;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+
+  background:
+    linear-gradient(
+      rgba(31, 47, 61, 0.72),
+      rgba(31, 47, 61, 0.72)
+    ),
+    url("images/Seabank 08.png");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.donate-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(31, 47, 61, 0.12);
+}
+
+.donate-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 750px;
+  color: white;
+}
+
+.donate-hero .section-label {
+  color: #d9cba8;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.donate-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  line-height: 1.15;
+  margin: 18px 0;
+}
+
+.donate-hero p {
+  max-width: 620px;
+  margin: 0 auto 30px;
+  color: #f0f0f0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.donate-hero-btn {
+  display: inline-block;
+  background: #e9e2ce;
+  color: var(--navy);
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.2s ease,
+              transform 0.2s ease;
+}
+
+.donate-hero-btn:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
+.donate-hero-note {
+  display: block;
+  margin-top: 18px;
+  font-size: 0.85rem;
+  color: #e1e5e9;
+}
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+  .donate-hero {
+    min-height: 420px;
+    padding: 65px 20px;
+  }
+
+  .donate-hero p {
+    font-size: 1rem;
+  }
+}
+
+/* DONATION IMPACT SECTION */
+
+.donation-impact {
+  padding: 90px 20px;
+  background: var(--sand);
+}
+
+.donation-impact .container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* HEADING */
+
+.impact-heading {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.impact-heading h2 {
+  color: var(--navy);
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin: 12px 0 15px;
+}
+
+.impact-heading p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* GRID */
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARDS */
+
+.impact-card {
+  background: #f8f6ef;
+  border: 1px solid rgba(44, 62, 80, 0.08);
+  border-radius: 10px;
+  padding: 35px 28px;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.07);
+}
+
+/* ICONS */
+
+.impact-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9e2ce;
+  color: var(--navy);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+/* CARD TEXT */
+
+.impact-card h3 {
+  color: var(--navy);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.impact-card p {
+  color: #626262;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* FOOTER */
+
+.impact-footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.impact-footer p {
+  color: #76694e;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .donation-impact {
+    padding: 65px 18px;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .impact-card {
+    padding: 28px;
+  }
+}
