@@ -29,8 +29,8 @@ Hamburger.addEventListener('click', () => {
   // rock paper scissors practice //
   // the browser version //
 
-  
-/*
+  /*
+
   function getComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3);
     const choices = ['rock', 'paper', 'scissors'];
@@ -85,11 +85,17 @@ if (numberOfGames === 5) {
 }
 
 function announceWinner() {
-  console.log('hurray')
+  if(playerScore === computerScore) {
+    console.log('The game ends in a draw!')
+  } else if (playerScore > computerScore) {
+    console.log('You won the whole game!')
+  } else {
+    console.log('The computer won the  whole thing!')
+  }
 }
  
-
 */
+
 
 
   
