@@ -1526,7 +1526,10 @@ margin: 0 auto;
 }
 
 #splash img {
-    max-height: 20rem;
+    width: min(80vw, 32rem);
+    max-height: 60vh;
+    height: auto;
+    object-fit: contain;
 }
 
 
