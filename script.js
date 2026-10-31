@@ -1,21 +1,39 @@
 // JS NAVBAR
-const Hamburger = document.querySelector('.hamburger');
-Hamburger.addEventListener('click', () => {
-    const Navbar = document.querySelector('.navbar');
-    Navbar.classList.toggle('active');
-}) 
+const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
 
+if (hamburger && navbar) {
+    hamburger.addEventListener('click', () => {
+        const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', String(!isExpanded));
+        navbar.classList.toggle('active', !isExpanded);
+    });
 
-  window.addEventListener("load", () => {
+    navbar.addEventListener('click', (event) => {
+        if (event.target.closest('a')) {
+            navbar.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+    });
+}
+
+window.addEventListener("load", () => {
     setTimeout(() => {
-      document.getElementById("splash").classList.add("hidden");
-      document.getElementById("main-content").classList.add("show");
-    }, 2000); // 2 seconds
-  });
+        const splash = document.getElementById("splash");
+        const mainContent = document.getElementById("main-content");
 
+        if (splash) {
+            splash.classList.add("hidden");
+        }
 
-  const transition = document.getElementById("page-transition");
-  const title = document.getElementById("page-title");
+        if (mainContent) {
+            mainContent.classList.add("show");
+        }
+    }, 2000);
+});
+
+const transition = document.getElementById("page-transition");
+const title = document.getElementById("page-title");
 
   function showTransition(text, url) {
     title.textContent = text;
@@ -99,7 +117,6 @@ function announceWinner() {
 
 
   
-
 
 
 

@@ -3,214 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Donate | Seabank House</title>
     <link href="/styles.css" rel="stylesheet">
-      <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png">
 </head>
 <body class="donate-page">
     <div id="page-transition">
-  <h1 id="page-title"></h1>
-</div>
+        <h1 id="page-title"></h1>
+    </div>
+
     <div class="header-wrapper">
-    <header>
-     
-        <div class="logo">
-            <a href="/index.html">
-            <img src="/logos/Seabank_Primary_Navy_RedText_RGB.png">
-            </a>
+        <header>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/logos/Seabank_Primary_Navy_RedText_RGB.png" alt="Seabank House">
+                </a>
+            </div>
+            <button
+                class="hamburger"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="primary-navigation">
+                <span class="lines"></span>
+                <span class="lines"></span>
+                <span class="lines"></span>
+            </button>
+            <nav class="navbar" id="primary-navigation" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/services.html">Services</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                    <li><a href="/html/donate.html" class="active" aria-current="page">Donate</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <section class="donate-hero">
+            <div class="donate-hero-content">
+                <span class="section-label">SUPPORT SEABANK HOUSE</span>
+                <h1>Make a Difference Today</h1>
+                <p>
+                    Your generosity helps us continue providing a welcoming, caring environment
+                    where residents can live with dignity, comfort and independence.
+                </p>
+                <a href="#donate" class="donate-hero-btn">Make a Donation →</a>
+                <span class="donate-hero-note">Every contribution is appreciated.</span>
+            </div>
+        </section>
+
+        <section class="donation-impact">
+            <div class="container">
+                <div class="impact-heading">
+                    <span class="section-label">YOUR SUPPORT MATTERS</span>
+                    <h2>Why Your Donation Matters</h2>
+                    <p>
+                        Every donation helps support the work of Seabank House and contributes
+                        towards creating a positive and fulfilling environment for residents.
+                    </p>
+                </div>
+
+                <div class="impact-grid">
+                    <article class="impact-card">
+                        <div class="impact-icon">
+                            <i aria-hidden="true">⌂</i>
+                        </div>
+                        <h3>A Welcoming Home</h3>
+                        <p>
+                            Help us maintain a comfortable, safe and welcoming environment where
+                            residents feel valued, respected and at home.
+                        </p>
+                    </article>
+
+                    <article class="impact-card">
+                        <div class="impact-icon">
+                            <i aria-hidden="true">♡</i>
+                        </div>
+                        <h3>Meaningful Experiences</h3>
+                        <p>
+                            Support activities, hobbies and opportunities for residents to enjoy
+                            new experiences, build friendships and stay connected.
+                        </p>
+                    </article>
+
+                    <article class="impact-card">
+                        <div class="impact-icon">
+                            <i aria-hidden="true">✦</i>
+                        </div>
+                        <h3>Independence &amp; Wellbeing</h3>
+                        <p>
+                            Help promote confidence, independence and personal development,
+                            supporting residents to enjoy fulfilling and meaningful lives.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="impact-footer">
+                    <p>Every contribution, whatever its size, is valued and appreciated.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="donate" id="donate" aria-labelledby="donate-title">
+            <div class="container">
+                <h2 id="donate-title">Support Seabank House</h2>
+                <p class="subtitle">
+                    Your donation helps us provide care, comfort, and dignity to those who need it most.
+                </p>
+
+                <div class="donation-amounts" aria-label="Suggested donation amounts">
+                    <button type="button">£10</button>
+                    <button type="button">£25</button>
+                    <button type="button">£50</button>
+                    <button type="button">£100</button>
+                </div>
+
+                <label class="donation-custom-label" for="custom-donation">
+                    Or enter a custom amount
+                </label>
+                <input
+                    id="custom-donation"
+                    name="amount"
+                    type="number"
+                    min="1"
+                    step="1"
+                    inputmode="decimal"
+                    placeholder="Amount in pounds (£)">
+
+                <a href="#" class="donate-btn">Donate Now</a>
+                <p class="secure-text">Secure payments powered by Stripe / PayPal</p>
+
+                <div class="bank-details">
+                    <h4>Prefer bank transfer?</h4>
+                    <p>Account Name: Seabank House</p>
+                    <p>Sort Code: 00-00-00</p>
+                    <p>Account Number: 00000000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img
+                    src="/logos/Seabank_Primary_Orange_RGB.png"
+                    alt="Seabank House Logo"
+                    class="footer-logo">
+                <p>
+                    Providing trusted supported living for adults with mental health challenges
+                    in Aberdeen for over 100 years.
+                </p>
+            </div>
+            <div class="footer-center">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/services.html">Our Support</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h4>Contact Us</h4>
+                <p>Seabank House</p>
+                <p>57 Dee St, Aberdeen AB11 6EE</p>
+                <p>Email: info@seabankhouse.com</p>
+                <p>Phone: +44 (0)1234 123456</p>
+            </div>
         </div>
-        <div class="hamburger">
-            <div class="lines"></div>
-            <div class="lines"></div>
-            <div class="lines"></div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Seabank House. All Rights Reserved.</p>
         </div>
-        <nav class="navbar">
-            <ul>
-              <li><a href="/index.html" class="active">Home</a></li>
-                <li><a href="/html/about.html" >About</a></li>
-                <li><a href="/html/services.html">Services</a></li>
-                <li><a href="/html/contact.html">Contact</a></li>
-                <li><a href="/html/donate.html">Donate</a></li>
-            </ul>
-        </nav>
- 
-    </header> 
-</div>
-
-
-
-<section class="donate-hero">
-  <div class="donate-hero-overlay"></div>
-
-  <div class="donate-hero-content">
-
-    <span class="section-label">
-      SUPPORT SEABANK HOUSE
-    </span>
-
-    <h1>Make a Difference Today</h1>
-
-    <p>
-      Your generosity helps us continue providing a
-      welcoming, caring environment where residents
-      can live with dignity, comfort and independence.
-    </p>
-
-    <a href="#donate" class="donate-hero-btn">
-      Make a Donation →
-    </a>
-
-    <span class="donate-hero-note">
-      Every contribution is appreciated.
-    </span>
-
-  </div>
-</section>
-
-<section class="donation-impact">
-  <div class="container">
-
-    <div class="impact-heading">
-
-      <span class="section-label">
-        YOUR SUPPORT MATTERS
-      </span>
-
-      <h2>Why Your Donation Matters</h2>
-
-      <p>
-        Every donation helps support the work of
-        Seabank House and contributes towards creating
-        a positive and fulfilling environment for residents.
-      </p>
-
-    </div>
-
-    <div class="impact-grid">
-
-      <!-- Card 1 -->
-      <article class="impact-card">
-
-        <div class="impact-icon">
-          <i class="fa-solid fa-house"></i>
-        </div>
-
-        <h3>A Welcoming Home</h3>
-
-        <p>
-          Help us maintain a comfortable, safe and
-          welcoming environment where residents
-          feel valued, respected and at home.
-        </p>
-
-      </article>
-
-      <!-- Card 2 -->
-      <article class="impact-card">
-
-        <div class="impact-icon">
-          <i class="fa-solid fa-heart"></i>
-        </div>
-
-        <h3>Meaningful Experiences</h3>
-
-        <p>
-          Support activities, hobbies and opportunities
-          for residents to enjoy new experiences,
-          build friendships and stay connected.
-        </p>
-
-      </article>
-
-      <!-- Card 3 -->
-      <article class="impact-card">
-
-        <div class="impact-icon">
-          <i class="fa-solid fa-hands-holding-circle"></i>
-        </div>
-
-        <h3>Independence & Wellbeing</h3>
-
-        <p>
-          Help promote confidence, independence and
-          personal development, supporting residents
-          to enjoy fulfilling and meaningful lives.
-        </p>
-
-      </article>
-
-    </div>
-
-    <div class="impact-footer">
-      <p>
-        Every contribution, whatever its size,
-        is valued and appreciated.
-      </p>
-    </div>
-
-  </div>
-</section>
-<section class="donate">
-  <div class="container">
-
-    <h2>Support Seabank House</h2>
-    <p class="subtitle">
-      Your donation helps us provide care, comfort, and dignity to those who need it most.
-    </p>
-
-    <!-- Donation Options -->
-    <div class="donation-amounts">
-      <button>£10</button>
-      <button>£25</button>
-      <button>£50</button>
-      <button>£100</button>
-    </div>
-
-    <!-- Custom Amount -->
-    <input type="number" placeholder="Enter custom amount (£)">
-
-    <!-- Donate Button -->
-    <a href="#" class="donate-btn">Donate Now</a>
-
-    <!-- Trust Info -->
-    <p class="secure-text">Secure payments powered by Stripe / PayPal</p>
-
-    <!-- Alternative -->
-    <div class="bank-details">
-      <h4>Prefer bank transfer?</h4>
-      <p>Account Name: Seabank House</p>
-      <p>Sort Code: 00-00-00</p>
-      <p>Account Number: 00000000</p>
-    </div>
-
-  </div>
-</section>
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-left">
-      <img src="/logos/Seabank_Primary_Orange_RGB.png" alt="Seabank House Logo" class="footer-logo">
-      <p>Providing trusted supported living for adults with mental health challenges in Aberdeen for over 100 years.</p>
-    </div>
-    <div class="footer-center">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#support">Our Support</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-right">
-      <h4>Contact Us</h4>
-      <p>Seabank House</p>
-      <p>57 Dee St, Aberdeen AB11 6EE</p>
-      <p>Email: info@seabankhouse.com</p>
-      <p>Phone: +44 (0)1234 123456</p>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 Seabank House. All Rights Reserved.</p>
-  </div>
-</footer>
-<script src="/script.js"></script>
+    </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seabank House | Supported Living in Aberdeen</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png">
 </head>
-<body>
-<div id="splash">
+<body class="home-page">
+<div id="splash" aria-hidden="true">
  
-  <img src="/logos/Seabank_Primary_Orange_RGB.png">
+  <img src="/logos/Seabank_Primary_Orange_RGB.png" alt="">
 </div>
 
 
@@ -20,22 +20,22 @@
      
         <div class="logo">
           <a href="/index.html">
-            <img src="/logos/Seabank_Primary_Navy_RedText_RGB.png">
+            <img src="/logos/Seabank_Primary_Navy_RedText_RGB.png" alt="Seabank House">
             </a>
         </div>
-        <div class="hamburger">
+        <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
             <div class="lines"></div>
             <div class="lines"></div>
             <div class="lines"></div>
-        </div>
-  <nav class="navbar">
+        </button>
+  <nav class="navbar" id="primary-navigation" aria-label="Primary navigation">
             <ul>
                 
-                <li><a href="/index.html" class="active">Home</a></li>
+                <li><a href="/index.html" class="active" aria-current="page">Home</a></li>
                 <li><a href="/html/about.html" >About</a></li>
                 <li><a href="/html/services.html">Services</a></li>
-                <li><a href="/html/contact.html">Contacts</a></li>
-                <li><a href="/html/donate.html">Donates</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li><a href="/html/donate.html">Donate</a></li>
             </ul>
         </nav>
  
@@ -43,9 +43,10 @@
 </div>
     <!--HERO SECTION-->
 
+<main>
 <section class="trial">
   
-   <img src="/images/Seabank 01.png ">
+   <img src="/images/Seabank 01.png" alt="Seabank House">
        <div class="welcome-message">
         <h1>Welcome to Seabank House</h1>
         <p>A local charity in Aberdeen</p>
@@ -69,7 +70,7 @@ Mental Health in Aberdeen</h1>
         <p>A registered charity that has been supporting the local community for 100+ years, Seabank House stands 
 for inclusion, encouragement and supporting fulfilling lives.</p>
     </div>
-   <a href="/html/about.html"> <button>  Discover Seabank House &rarr;</button></a>
+   <a class="hero-message-button" href="/html/about.html">Discover Seabank House &rarr;</a>
 </section>
 </div>
 <div class="hero-image-wrapper">
@@ -103,7 +104,7 @@ and this deep-rooted trust is integral to its brand identity.</p>
 </div>
 <div class="cta-wrapper">
 <section class="call-to-action">
-    <h1><img src="/logos/Seabank_Mark_Orange_RGB.png">How You Can Make A Difference</h1>
+    <h1><img src="/logos/Seabank_Mark_Orange_RGB.png" alt="">How You Can Make A Difference</h1>
     <p>Your support helps Seabank House provide vulnerable adults in Aberdeen with the safe spaces, guidance, and opportunities they need to build confidence, develop life skills, and move toward greater independence. Here's what you can do.</p>
    
    
@@ -116,30 +117,31 @@ and this deep-rooted trust is integral to its brand identity.</p>
   <section class="cta-work">
     
     <div class="cta-card">
-      <img src="/resources/volunteering.png">
+      <img src="/resources/volunteering.png" alt="">
       <h1>Volunteer</h1>
       <p>Give your time and make a meaningful impact at Seabank House Aberdeen. Whether it’s offering companionship or lending a helping hand, your presence can brighten lives and strengthen our community.</p>
-      <button>Volunteer</button>
+      <a class="cta-card-link" href="/html/contact.html#contact-form">Volunteer</a>
     </div>
 
     <div class="cta-card">
-      <img src="/resources/heart.png">
+      <img src="/resources/heart.png" alt="">
       <h1>Donate</h1>
       <p>Your generosity helps us continue providing care and support to those who need it most. Every contribution, big or small, makes a lasting difference—help us keep our doors open and our services strong.</p>
-      <button>Donate</button>
+      <a class="cta-card-link" href="/html/donate.html#donate">Donate</a>
     </div>
 
     <div class="cta-card">
-      <img src="/resources/briefcase (1).png">
+      <img src="/resources/briefcase (1).png" alt="">
       <h1>Work With Us</h1>
       <p>Join a dedicated team committed to making a positive difference every day. At Seabank House Aberdeen, your skills and compassion will help create a supportive environment for everyone we serve.</p>
-      <button>Work With Us</button>
+      <a class="cta-card-link" href="/html/contact.html#contact-form">Work With Us</a>
     </div>
 
   </section>
 </div>
 
 
+</main>
 
 <footer class="footer">
   <div class="footer-container">
@@ -150,9 +152,9 @@ and this deep-rooted trust is integral to its brand identity.</p>
     <div class="footer-center">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#support">Our Support</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="/html/about.html">About</a></li>
+        <li><a href="/html/services.html">Our Support</a></li>
+        <li><a href="/html/contact.html">Contact</a></li>
       </ul>
     </div>
     <div class="footer-right">
